@@ -35,6 +35,7 @@ body{
     display: flex;
     justify-content:center;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 .header-text{
     width: 582px;
@@ -63,6 +64,7 @@ body{
     width: 475px;
     height: 475px;
     margin-left: 15%;
+    background-image: url(images/Circle\ design.svg);
 }
 .header-img:hover{
     transform: scale(1.2);
@@ -142,4 +144,44 @@ body{
     display: flex;
     align-items: center;
     color: #787885;
+}
+/* --------------See More -----------------*/
+.see-more-button{
+    display: flex;
+    justify-content: center;
+}
+.see-more{
+    width: 1020px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more span{
+    font-size: 16px;
+}
+
+/* --------------products-summary------------ */
+.products-summary{
+    display: flex;
+    justify-content: center;
+}
+.summary-img{
+    width: 404px;
+    height: 270px;
+    margin: 5%;
+}
+.summary-detells{
+    width: 610px;
+    height: 224px;
+    margin: 5%;
+}
+.summary-detells a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 6px 13px;
 }
