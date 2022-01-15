@@ -69,12 +69,14 @@ body{
     transition: transform 1s ease-in-out;
 }
 
-.logo-section{
+/* -----------Main Section -----------------*/
+.conteinar{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .logo{
-    width: 1250px;
+    width: 1150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,11 +84,14 @@ body{
     border-bottom: 2px solid lightgray;
 }
 .logo p{
-    margin-right: 50px;
+    margin-right: 40px;
     margin-left: 20px;
 }
+/* ------------product Styles-------------------*/
 
-/* -----------Main Section -----------------*/
+.products-section{
+    width: 1020px;
+}
 .products-main-title{
     display: flex;
     justify-content: center;
@@ -97,9 +102,15 @@ body{
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2em;
+    justify-items: center;
 }
 .product{
-    padding: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 5px;
 }
 .product-semple{
     width: 300px;
