@@ -1,0 +1,94 @@
+/*----------------------------
+            Font Family
+-----------------------------*/
+/* font-family: 'Inter', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------Main header---------------- */
+.head-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+.head-nav h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.menu{
+    display: flex;
+    justify-content: end
+}
+.menu p{
+    margin-right: 25px;
+}
+.menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+/* -------------Header Section-----------------*/
+.header-section{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.header-text{
+    width: 582px;
+    height: 270px;
+}
+.header-text h1{
+    width: 582px;
+    height: 133px;
+    font-weight: bold;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.header-text p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.header-text button{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 24px;
+    background: rgb(255, 69, 100);
+    border-radius: 41px;
+}
+.header-img{
+    width: 475px;
+    height: 475px;
+    margin-left: 15%;
+}
+.header-img:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+.logo p{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+/* -----------Main Section -----------------*/
+.products-section h2{
+    display: flex;
+    justify-content: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    margin-top: 50px;
+}
