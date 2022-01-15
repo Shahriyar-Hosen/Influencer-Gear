@@ -184,4 +184,25 @@ body{
     color: white;
     background-color: orangered;
     padding: 6px 13px;
+    overflow: hidden;
+}
+/* ------------footer--------------- */
+footer{
+    height: 250px;
+    background-color: #050130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    width: 262px;
+    height: 139px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.social-icon {
+    margin: 5%;
+    padding-top: 10px;
 }
